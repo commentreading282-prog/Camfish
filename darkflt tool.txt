@@ -1,0 +1,29 @@
+pkg install python2
+pkg install git DarkFly
+git clone https://github.com/ranginang67/DarkFly-Tool
+cd DarkFly=Tools
+python2 install.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ishq De Fanniyar
