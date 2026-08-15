@@ -46,3 +46,37 @@ After installation:
 cd ~/Camfish
 ./camfish.sh
 ```
+### Step 3 — Option Select Karein
+
+Tool में कुछ options दिखाई देंगे। अपने **authorized/local test** के लिए कोई option select करें।
+
+### Step 4 — Local Test Server
+
+Tool एक local testing URL दिखा सकता है, उदाहरण के लिए:
+
+```text
+http://localhost:5225
+```
+
+इस URL को केवल अपने device या ऐसे test environment में खोलें जिसकी आपको अनुमति है।
+
+### Step 5 — Camera Permission
+
+अगर browser camera permission माँगे, तो केवल अपने authorized test device पर permission दें।
+
+### Step 6 — Test Complete Karein
+
+Test पूरा होने के बाद local server बंद करने के लिए:
+
+```text
+Ctrl + C
+```
+दबाएँ।
+
+अगर test के दौरान images **तुम्हारे अपने authorized device** पर बनाई गई हैं, तो उन्हें Pictures folder में copy करने के लिए:
+
+```bash
+cp *.png ~/storage/shared/pictures/
+```
+
+इसके बाद अपने device में **Pictures** folder खोलें और test के दौरान बनाई गई images देखें।
